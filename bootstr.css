@@ -1,0 +1,140 @@
+ body{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	/*font-family: 'Patrick Hand', cursive;*/
+	font-family: 'Montserrat', sans-serif;
+}
+h2{
+	font-size: 26px;
+}
+h3 {
+	font-size: 22px;
+}
+h2.card-slider {
+	color:#ffffff;
+	font-size: 26px;
+	text-transform: uppercase;
+}
+h4{
+	font-size: 18px;
+}
+p.slider-text {color: white;
+margin: 10px,
+letter-spacing: 2px;
+font-size: 16px;}
+h4.card-title.text-center{
+	font-size: 20px;
+}
+p.card-text {font-size: 16px;}
+.card-body {
+	padding: 10px;
+	/*height: 300px;*/
+}
+ .fab {
+      font-size: 2rem;
+    }
+.btn-primary{
+	background-color: #1ea5ff;
+	border-color: #1ea5ff;
+}
+.btn-primary:hover{
+	background-color: #fff;
+	border-color: #1ea5ff;
+	color: #1ea5ff;
+	font-weight: bold;
+}
+.btn-info{
+	background-color: #8f19e8;
+	border-color: #8f19e8;
+}
+.btn-info:hover{
+	background-color: #fff;
+	border-color: #8f19e8;
+	color: #8f19e8;
+	font-weight: bold;
+}
+.btn-danger{
+	background-color: #ff4129;
+	border-color: #ff4129;
+}
+.btn-danger:hover{
+	background-color: #fff;
+	border-color: #ff4129;
+	color: #ff4129;
+	font-weight: bold;
+}
+.btn-warning{
+	background-color: #e8aa19;
+	border-color: #e8aa19;
+}
+.btn-warning:hover{
+	background-color: #fff;
+	border-color: #e8aa19;
+	color: #e8aa19;
+	font-weight: bold;
+}
+.btn{
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	/*text-transform: uppercase;*/
+}
+
+
+.bg-primary{
+	background-color: #1ea5ff !important;
+}
+.bg-info{
+	background-color: #8f19e8 !important;
+}
+.bg-danger{
+	background-color: #ff4129 !important;
+}
+.bg-warning{
+	background-color: #e8aa19 !important;
+}
+.bg-light{
+	background-color: #ffffff !important;
+}
+.bg-dark{
+	background-color: #555555 !important;
+	color: #fff;
+}
+.card{
+	border:0px;
+}
+.navbar{
+	font-size: 1.15rem;
+/*	border-bottom: 1px solid black;*/
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+/*.form-control{
+	width: 70% !important;
+}
+.input-group{
+	width: 70% !important;
+}
+*/
+.container-fluid bg-light {
+	margin: 0px;
+	padding: 0px;
+}
+.info{
+	max-height: 25px;
+	max-width: auto;
+}
+.carousel-caption{
+	position: relative;
+	z-index: 50;
+	right: 0;
+	left: 0;
+}
+.container-fluid.bg-light{
+	border-bottom: 1px solid black;
+}
+/*img fluid*/

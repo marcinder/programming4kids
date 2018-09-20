@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MEM - nauka programowania dla dzieci</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstr.css">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Patrick+Hand&amp;subset=latin-ext" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700&amp;subset=latin-ext" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container-fluid sticky-top bg-light">
+     <div class="container pt-2">
+      <nav class="navbar navbar-light navbar-expand-lg mb-2">
+           	<a class="navbar-band" href="#"><img src="img/logo.png" alt="logo" width="200"></a>
+    
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="mainmenu">
+      
+        <ul class="navbar-nav ml-auto">
+          <!-- klasa ml-auto dosuwa do prawej -->
+        
+          <li class="nav-item active">
+            <a class="nav-link" href="#"> Start </a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true"> Strefa rodzica </a>
+            
+            <div class="dropdown-menu" aria-labelledby="submenu">
+            
+              <a class="dropdown-item" href="#"> Jak uczyć dziecko programowania? </a>
+              <a class="dropdown-item" href="#"> Kiedy zacząć uczyć dziecko programowania? </a>
+              <a class="dropdown-item" href="#"> Dlaczego warto uczyć programowania? </a>
+              <a class="dropdown-item" href="#"> Nauka przez zabawę- najpopularniejsze metody. </a>
+              <a class="dropdown-item" href="#"> Aplikacje przydatne do nauki programowania. </a>
+              
+              <!-- <div class="dropdown-divider"></div>
+              
+              <a class="dropdown-item" href="#"> Sylwetki zawodników </a>
+              <a class="dropdown-item" href="#"> Kontakt </a> -->
+            
+            </div>
+            
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Blog </a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#"> O nas </a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true"> Oferta </a>
+            <div class="dropdown-menu" aria-labelledby="submenu">
+            
+              <a class="dropdown-item" href="#"> Nauka Scratcha</a>
+              <a class="dropdown-item" href="#"> Najciekawsze projekty </a>
+              <a class="dropdown-item" href="#"> Nasze kursy </a>
+              <a class="dropdown-item" href="#"> Zapisz dziecko </a>
+            </div>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Kontakt </a>
+          </li>
+        
+        </ul>     
+      	</div>
+       </nav>
+     </div>
+   </div>
+
+    <!-- 2 row -->
+    <div class="container-fluid bg-primary">
+    <div class="row">
+      <div class="col-12">
+        <div class="bg-primary w-100">
+          <div class="row">
+            <div class="col-4 m-auto d-none d-md-block">
+              <!--Carousel Wrapper-->
+              <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                  <li data-target="#carousel-example-2" data-slide-to="2"></li>
+                </ol>
+                <!--/.Indicators-->
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                    <div class="view">
+                      <img class="d-block w-75 mr-auto ml-auto" src="img/s1.png" alt="First slide">
+                      <div class="mask rgba-black-light"></div>
+                    </div>
+               
+                    <div class="carousel-caption">
+                      <h3 class="h3-responsive">Light mask</h3>
+                      <p>First text</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                  
+                    <!--Mask color-->
+                    <div class="view">
+                      <img class="d-block w-75 mr-auto ml-auto" src="img/s2.png" alt="Second slide">
+                      <div class="mask rgba-black-strong"></div>
+                    </div>
+                    <div class="carousel-caption">
+                      <h3 class="h3-responsive">Strong mask</h3>
+                      <p>Secondary text</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                      <img class="d-block w-75 mr-auto ml-auto" src="img/s3.png" alt="Third slide">
+                      <div class="mask rgba-black-slight"></div>
+                    </div>
+                    <div class="carousel-caption">
+                      <h3 class="h3-responsive">Slight mask</h3>
+                      <p>Third text</p>
+                    </div>
+                  </div>
+                </div>
+                <!--/.Slides-->
+                <!--Controls-->
+                <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Poprzedni</span>
+    </a>
+                <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Następny</span>
+    </a>
+            </div>
+          </div>
+
+<div class="col-sm-7 m-auto">
+              <div class="card bg-primary">
+                <div class="card-body">
+                 <div class="container">
+                  <h2 class="card-slider">Nauka programowania dla dzieci</h2>
+                  <p class="slider-text">Programowanie to fantastyczna zabawa, rozwijąca mózg Twojego dziecka. Dzięki zabawanie w małego programistę dzieci i młodzież poznają podstawy logicznego myślenia, uczą się rozwiązywać problemy oraz przekuwać swoje pomysły w działające projekty. A to wszystko w miłej atmosferze rozrywki. Jeśli zależy Ci na przyszłości Twego potomka - koniecznie zadbaj o to, by uczył się programowania. To prawdziwa inwestycja w przyszłosć dziecka.</p>
+                  <a href="#" class="btn btn-danger mr-2 mt-2">Poznaj ofertę</a>
+                  <a href="#" class="btn btn-info mt-2">Zapisz dziecko</a>
+                 </div>
+                </div>
+              </div>
+			</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- 3 row -->
+    <div class="container">
+    	<div class="text-center pt-3">
+
+      	<h1>NAUKA PROGRAMOWANIA ZE SCRATCHEM</h1>
+      </div>
+
+      	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut finibus ante. Duis sollicitudin, erat a fringilla porttitor, lacus arcu semper orci, vitae lacinia neque nibh eu dolor. Pellentesque pulvinar diam a viverra mollis. Curabitur aliquet tellus et nisl scelerisque, ac imperdiet eros maximus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque finibus quis sem eu tincidunt. Donec tortor turpis, pretium dapibus consectetur rutrum, facilisis nec sapien. Suspendisse efficitur porta metus, at pulvinar ipsum consequat finibus. Cras dolor metus, suscipit non elementum at, scelerisque eget nunc. Suspendisse fermentum varius erat, quis interdum elit sagittis luctus. Ut vitae consectetur diam. Curabitur non velit arcu. Fusce sed cursus lacus, nec imperdiet sem. Mauris arcu eros, aliquet egestas hendrerit a, pulvinar a lorem.</p>
+
+<p>Morbi scelerisque urna ac tellus iaculis vulputate. Pellentesque auctor, nibh vitae egestas tincidunt, tortor augue volutpat diam, ac porttitor enim ipsum eu est. Quisque faucibus felis arcu, at accumsan lacus ullamcorper et. Nunc in interdum massa, non viverra ipsum. Sed eleifend in ante nec auctor. Cras a neque orci. Vestibulum imperdiet est nec velit gravida lobortis. Sed aliquet velit justo, eget maximus dolor posuere a. Pellentesque tempus, risus vitae egestas vulputate, mauris nibh euismod tortor, in semper dui nulla non ex. Nullam aliquam est sit amet turpis tincidunt accumsan. Morbi facilisis sollicitudin massa. Aliquam rutrum nulla et risus ultricies, et rutrum magna tempus. Ut dapibus mi ac risus dapibus, in tempor elit suscipit. Vestibulum nisl tortor, tincidunt eu elit non, ultricies mattis nisl. Praesent pellentesque ante ac eros vehicula fringilla.</p>
+    	</div>
+	</div>
+</div>
+    <!-- 4 row -->
+<div class="container-fluid bg-primary w-100">
+  <div class="container">
+  	<div class="col-12 text-center py-2"><h2 class="card-slider pt-3">Strefa rodzica</h2></div>
+    <div class="row">
+      <div class="col-sm-6 col-lg-3 pt-3 pb-5">
+        <div class="card">
+          <img class="card-img-top" src="img/nauka1.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title text-center">Jak zacząć naukę programowania dla dziecka?</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut finibus ante. Duis sollicitudin, erat a fringilla porttitor, lacus arcu semper orci, vitae lacinia neque nibh eu dolor. Pellentesque pulvinar diam a viverra mollis.</p>
+            <a href="#" class="btn btn-danger d-block w-50 ml-auto mr-auto">Więcej</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-3 pt-3 pb-5">
+        <div class="card">
+          <img class="card-img-top" src="img/nauka2.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title text-center">Kiedy zacząć uczyć dziecko programowania</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut finibus ante. Duis sollicitudin, erat a fringilla porttitor, lacus arcu semper orci, vitae lacinia neque nibh eu dolor. Pellentesque pulvinar diam a viverra mollis.</p>
+            <a href="#" class="btn btn-danger d-block w-50 ml-auto mr-auto">Więcej</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-3 pt-3 pb-5">
+        <div class="card">
+          <img class="card-img-top" src="img/nauka3.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title text-center">Nauka przez zabawę - najpopularniejsze metody</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut finibus ante. Duis sollicitudin, erat a fringilla porttitor, lacus arcu semper orci, vitae lacinia neque nibh eu dolor. Pellentesque pulvinar diam a viverra mollis.</p>
+            <a href="#" class="btn btn-danger d-block w-50 ml-auto mr-auto">Więcej</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-3 pt-3 pb-5">
+        <div class="card">
+          <img class="card-img-top" src="img/nauka4.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title text-center">Aplikacje przydatne do nauki programowania</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut finibus ante. Duis sollicitudin, erat a fringilla porttitor, lacus arcu semper orci, vitae lacinia neque nibh eu dolor. Pellentesque pulvinar diam a viverra mollis.</p>
+            <a href="#" class="btn btn-danger d-block w-50 ml-auto mr-auto">Więcej</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- 5 row -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 mb-2 my-4">
+
+        <img src="img/scratch.png" class="img-thumbnail my-auto float-left border-0 rounded-circle" alt="Cinque Terre">
+
+      </div>
+
+      <div class="col-sm-6 mb-2 my-md-auto">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title ml-0">Nauka Scratcha</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut finibus ante. Duis sollicitudin, erat a fringilla porttitor, lacus arcu semper orci, vitae lacinia neque nibh eu dolor. Pellentesque pulvinar diam a viverra mollis. Curabitur aliquet tellus et nisl scelerisque, ac imperdiet eros maximus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque finibus quis sem eu tincidunt. Donec tortor turpis, pretium dapibus consectetur rutrum, facilisis nec sapien. Suspendisse efficitur porta metus, at pulvinar ipsum consequat finibus. Cras dolor metus, suscipit non elementum at, scelerisque eget nunc. Suspendisse fermentum varius erat, quis interdum elit sagittis luctus. Ut vitae consectetur diam. Curabitur non velit arcu. Fusce sed cursus lacus, nec imperdiet sem. Mauris arcu eros, aliquet egestas hendrerit a, pulvinar a lorem.</p>
+            <a href="#" class="btn btn-info d-block w-50 ml-auto mr-auto">Czytaj więcej</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6 row -->
+    <div class="row">
+
+      <div class="col-sm-6 mb-2 my-md-auto">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title ml-0">Najlepsze projekty</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut finibus ante. Duis sollicitudin, erat a fringilla porttitor, lacus arcu semper orci, vitae lacinia neque nibh eu dolor. Pellentesque pulvinar diam a viverra mollis. Curabitur aliquet tellus et nisl scelerisque, ac imperdiet eros maximus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque finibus quis sem eu tincidunt. Donec tortor turpis, pretium dapibus consectetur rutrum, facilisis nec sapien. Suspendisse efficitur porta metus, at pulvinar ipsum consequat finibus. Cras dolor metus, suscipit non elementum at, scelerisque eget nunc. Suspendisse fermentum varius erat, quis interdum elit sagittis luctus. Ut vitae consectetur diam. Curabitur non velit arcu. Fusce sed cursus lacus, nec imperdiet sem. Mauris arcu eros, aliquet egestas hendrerit a, pulvinar a lorem.</p>
+            <a href="#" class="btn btn-info d-block w-50 ml-auto mr-auto">Czytaj więcej</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-6 mb-2 my-4">
+
+        <img src="img/najlepszeprojekty.jpg" class="img-thumbnail my-auto float-right border-0 rounded-circle" alt="Cinque Terre">
+
+      </div>
+    </div>
+  </div>
+
+    <!-- 7 row -->
+<div class="container-fluid bg-danger">
+	<div class="container">
+    <div class="row">
+    	<div class="col-12 text-center py-2"><h2 class="card-slider pt-3">Aktualności</h2></div>
+      <div class="col-sm-6 col-lg-3 pt-3 pb-5">
+        <div class="card">
+          <img class="card-img-top" src="img/blog1.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title text-center">Z wizytą w Szkole Podstawowej nr 3</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut finibus ante. Duis sollicitudin, erat a fringilla porttitor, lacus arcu semper orci, vitae lacinia neque nibh eu dolor. Pellentesque pulvinar diam a viverra mollis.</p>
+            <a href="#" class="btn btn-primary d-block w-50 ml-auto mr-auto">Czytaj dalej</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-3 pt-3 pb-5">
+        <div class="card">
+          <img class="card-img-top" src="img/blog2.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title text-center">Aplikacje do nauki programowania</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut finibus ante. Duis sollicitudin, erat a fringilla porttitor, lacus arcu semper orci, vitae lacinia neque nibh eu dolor. Pellentesque pulvinar diam a viverra mollis.</p>
+            <a href="#" class="btn btn-primary d-block w-50 ml-auto mr-auto">Czytaj dalej</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-3 pt-3 pb-5">
+        <div class="card">
+          <img class="card-img-top" src="img/blog3.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title text-center">Ruszyły zapisy na nowy semestr</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut finibus ante. Duis sollicitudin, erat a fringilla porttitor, lacus arcu semper orci, vitae lacinia neque nibh eu dolor. Pellentesque pulvinar diam a viverra mollis.</p>
+            <a href="#" class="btn btn-primary d-block w-50 ml-auto mr-auto">Czytaj dalej</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-3 pt-3 pb-5">
+        <div class="card">
+          <img class="card-img-top" src="img/blog4.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title text-center">Jak zachęcić dziecko do nauki w wakacje?</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut finibus ante. Duis sollicitudin, erat a fringilla porttitor, lacus arcu semper orci, vitae lacinia neque nibh eu dolor. Pellentesque pulvinar diam a viverra mollis.</p>
+            <a href="#" class="btn btn-primary d-block w-50 ml-auto mr-auto">Czytaj dalej</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+    <!-- 8 row -->
+  <div class="container">
+    <div class="row">
+      <div class="col-6 mb-2 my-4 pr-4 text-justify">
+<h2>Nasza oferta</h2>
+        <p>Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p>
+      <h4>Lista kursów:</h4>
+        <ul>
+        <li><b>kurs pierwszy</b> - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut finibus ante. Duis sollicitudin, erat a fringilla porttitor, lacus arcu semper orci, vitae lacinia neque nibh eu dolor. Pellentesque pulvinar diam a viverra mollis.</li>
+        <li><b>kurs drugi</b> - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut finibus ante. Duis sollicitudin, erat a fringilla porttitor, lacus arcu semper orci, vitae lacinia neque nibh eu dolor. Pellentesque pulvinar diam a viverra mollis.</li>
+         <li><b>kurs trzeci</b> - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut finibus ante. Duis sollicitudin, erat a fringilla porttitor, lacus arcu semper orci, vitae lacinia neque nibh eu dolor. Pellentesque pulvinar diam a viverra mollis.</li>
+       </ul>
+    
+      </div>
+      <div class="col-6 mb-2 my-4">
+        <h2>Zapisz swoje dziecko na kurs</h2>
+        <form action="send.php" method="GET">
+          <div class="form-group">
+          	<label for="exampleInputName">Imię i nazwisko</label>
+          	<input type="email" class="form-control mb-3" id="exampleInputName" aria-describedby="emailHelp" placeholder="Imię i nazwisko">
+          	<label for="inputGroupSelect02">Interesujący Cię kurs</label>
+          	<div class="input-group">
+  <select class="custom-select mb-3" id="inputGroupSelect02">
+    <option selected>Wybierz kurs</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+  </select>
+  
+</div>
+          	<label for="exampleInputTelephone">Telefon</label>
+          	<input type="email" class="form-control mb-3" id="exampleInputTelephone" aria-describedby="emailHelp" placeholder="Telefon">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control mb-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Wyrażam zgodę</label>
+          </div>
+          <button type="submit" class="btn btn-info mt-3">Wyślij</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+    <!-- 9 row -->
+<div class="container-fluid bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-6 mt-3">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eaque dolor odit ex et voluptatibus! Fugiat
+          et, numquam maxime autem in veritatis dolore commodi totam, est amet quos aperiam fuga.
+        </p>
+      </div>
+      <div class="col-3 text-center mt-3">
+        <i class="fab fa-facebook-square mr-1"></i>
+        <i class="fab fa-twitter-square mr-1"></i>
+        <i class="fab fa-instagram mr-1"></i>
+        <i class="fab fa-linkedin mr-1"></i>
+      </div>
+      <div class="col-3 mt-3">
+        <p><img src="img/home.png" class="info mr-1">Adres</p>
+        <p><img src="img/phone.png" class="info mr-1">Telefon</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+
+</html>
