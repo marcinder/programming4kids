@@ -31,6 +31,11 @@ letter-spacing: 2px;
 font-size: 16px;}
 h4.card-title.text-center{
 	font-size: 20px;
+	color: black;
+}
+a>h4.card-title.text-center:hover{
+	text-decoration: none;
+	color: black;
 }
 p.card-text {
 	font-size: 16px;
@@ -155,4 +160,90 @@ p.card-text {
 	h4.card-title.text-center{
 		font-size: 16px;
 	}
+}
+@media (max-width: 991px){
+	h2.card-slider{
+		font-size: 24px;
+	}
+}
+
+
+/*podstr.css*/
+.obr{
+	width: 200px;
+	height: auto;
+}
+.sidebar1{
+	max-height: 145px;
+	overflow-y: hidden;
+	padding: 0;
+	}
+.row.my-3{
+	max-width: 100%;
+}
+a.d-block{
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+}
+a.d-block:hover{
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.post{
+	max-height: 100px;
+	text-decoration: none;
+    color: black;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+.breadcrumb{
+	background-color: #fff;
+	margin-top: 10px;
+	padding-left: 0;
+}
+.breadcrumb:hover{
+	text-decoration: none;
+}
+h5{
+	font-size: 16px;
+	font-weight: normal;
+}
+.oferta{
+	width: 40px;
+	height: auto;
+}
+
+/*blog.css*/
+a:hover{
+	text-decoration: none;
+}
+.data{
+	font-size: 15px;
+	color: #7a7a52;
+}
+.opis{
+	max-height: 100px;
+	text-decoration: none;
+    color: black;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+h2.post-title>a{
+	color: #1ea5ff;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+	content:">";
+}
+.breadcrumb-item{
+	color: #1ea5ff;
+}
+.img-thumbnail.blog{
+	max-width: 100px;
+	height: auto;
 }
